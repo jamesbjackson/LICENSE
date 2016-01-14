@@ -23,7 +23,7 @@ Most licenses require some parameters, which are enclosed in triple braces `{{{p
 `description`: Project's description (*i.e: A Collection of Useful LICENSE Templates*)
 
 | Identifier | `year` | `full_name` | `project_name` | `description` |
-| -------:|:------:|:-----------:|:--------------:|:-------------:|
+| ----------:|:------:|:-----------:|:--------------:|:-------------:|
 | `agpl-3.0` | ✓ | ✓ | ✓ | ✓ |
 | `apache-2.0` | ✓ | ✓ | ✖ | ✖ |
 | `artistic-2.0` | ✓ | ✓ | ✖ | ✖ |
@@ -69,3 +69,5 @@ If you'd like to submit a new template, follow the steps below.
 4. Use the parameters listed above where necessary.
 5. Add the license to the two tables above (parameters and identifiers).
 6. Send in a pull request. The more information you provide about the license, the better (especially if it is not a well-known license).
+
+If the license you wish to add requires a new parameter, first make an issue about it for discussion. Include why the parameters needs to be added (which license(s) would benefit from it). Adding a new parameter introduces a change in the API that applications may not be expecting or ready for.
