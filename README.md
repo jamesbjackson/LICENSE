@@ -1,4 +1,8 @@
-# A Collection of Useful `LICENSE` Templates
+# `LICENSE`
+
+`LICENSE` is a collection of useful `LICENSE` templates inspired by [GitHub's `.gitignore`](https://github.com/github/gitignore).
+
+`LICENSE` templates are stored in the `licenses` directory and end in `.license`. They contain some or none of the parameters listed below.
 
 ## Why?
 To make writing software that generates licenses easier.
