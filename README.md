@@ -16,3 +16,4 @@ Most licenses require some parameters, which are enclosed in triple braces `{{{p
 | `bsd-3-clause` | ✓ | ✓ | ✓ | ✖ |
 | `gpl-2.0` | ✓ | ✓ | ✖ | ✓ |
 | `mit` | ✓ | ✓ | ✖ | ✖ |
+| `cc0-1.0` | ✖ | ✖ | ✖ | ✖ |
