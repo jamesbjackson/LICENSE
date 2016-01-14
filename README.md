@@ -23,3 +23,4 @@ Most licenses require some parameters, which are enclosed in triple braces `{{{p
 | `isc` | ✓ | ✓ | ✖ | ✖ |
 | `lgpl-2.1` | ✓ | ✓ | ✖ | ✓ |
 | `lgpl-3.0` | ✖ | ✖ | ✖ | ✖ |
+| `mpl-2.0` | ✖ | ✖ | ✖ | ✖ |
