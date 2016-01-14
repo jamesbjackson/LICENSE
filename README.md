@@ -41,21 +41,20 @@ Most licenses require some parameters, which are enclosed in triple braces `{{{p
 | `unlicense` | ✖ | ✖ | ✖ | ✖ |
 
 ## `LICENSE` Filenames
-
 | Filename | Human-readable |
 | --------:|:-------------- |
-|`agpl-3.0` | GNU Affero General Public License v3.0|
-|`apache-2.0` | Apache License 2.0|
-|`artistic-2` | Artistic License 2.0|
-|`bsd-2-clause` | BSD 2-clause "Simplified" License|
-|`bsd-3-clause` | BSD 3-clause "New" or "Revised" License|
-|`cc0-1.0` | Creative Commons Zero v1.0 Universal|
-|`epl-1.0` | Eclipse Public License 1.0|
-|`gpl-2.0` | GNU General Public License v2.0|
-|`gpl-3.0` | GNU General Public License v3.0|
-|`isc` | ISC License|
-|`lgpl-2.1` | GNU Lesser General Public License v2.1|
-|`lgpl-3.0` | GNU Lesser General Public License v3.0|
-|`mit` | MIT License|
-|`mpl-2.0` | Mozilla Public License 2.0|
-|`unlicense` | The Unlicense|
+| `agpl-3.0` | GNU Affero General Public License v3.0|
+| `apache-2.0` | Apache License 2.0|
+| `artistic-2` | Artistic License 2.0|
+| `bsd-2-clause` | BSD 2-clause "Simplified" License|
+| `bsd-3-clause` | BSD 3-clause "New" or "Revised" License|
+| `cc0-1.0` | Creative Commons Zero v1.0 Universal|
+| `epl-1.0` | Eclipse Public License 1.0|
+| `gpl-2.0` | GNU General Public License v2.0|
+| `gpl-3.0` | GNU General Public License v3.0|
+| `isc` | ISC License|
+| `lgpl-2.1` | GNU Lesser General Public License v2.1|
+| `lgpl-3.0` | GNU Lesser General Public License v3.0|
+| `mit` | MIT License|
+| `mpl-2.0` | Mozilla Public License 2.0|
+| `unlicense` | The Unlicense|
