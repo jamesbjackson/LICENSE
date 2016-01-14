@@ -7,3 +7,12 @@ Most licenses require some parameters, which are enclosed in triple braces `{{{p
 `full_name`: Project owner's full name (*i.e: Nimit Kalra*)  
 `project_name`: Project's name (*i.e: LICNESE*)  
 `description`: Project's description (*i.e: A Collection of Useful LICENSE Templates*)
+
+| LICENSE | `year` | `full_name` | `project_name` | `description` |
+| ------- |:------:|:-----------:|:--------------:|:-------------:|
+| `apache-2.0` | ✓ | ✓ | ✖ | ✖ |
+| `artistic-2.0` | ✓ | ✓ | ✖ | ✖ |
+| `bsd-2-clause` | ✓ | ✓ | ✖ | ✖ |
+| `bsd-3-clause` | ✓ | ✓ | ✓ | ✖ |
+| `gpl-2.0` | ✓ | ✓ | ✖ | ✓ |
+| `mit` | ✓ | ✓ | ✖ | ✖ |
