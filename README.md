@@ -1,5 +1,8 @@
 # A Collection of Useful `LICENSE` Templates
 
+## Why?
+To make writing software that generates licenses easier.
+
 ## Parameters
 Most licenses require some parameters, which are enclosed in triple braces `{{{parameter}}}` in the LICENSE templates. Below is a list of parameters and their meanings. ("Project" refers to the software being licensed).
 
