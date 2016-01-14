@@ -5,7 +5,7 @@ Most licenses require some parameters, which are enclosed in triple braces `{{{p
 
 `year`: Current year in `YYYY` format (*i.e: 2016*)  
 `full_name`: Project owner's full name (*i.e: Nimit Kalra*)  
-`project_name`: Project's name (*i.e: LICNESE*)  
+`project_name`: Project's name (*i.e: LICENSE*)  
 `description`: Project's description (*i.e: A Collection of Useful LICENSE Templates*)
 
 | LICENSE | `year` | `full_name` | `project_name` | `description` |
