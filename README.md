@@ -9,7 +9,7 @@ Most licenses require some parameters, which are enclosed in triple braces `{{{p
 `description`: Project's description (*i.e: A Collection of Useful LICENSE Templates*)
 
 | LICENSE | `year` | `full_name` | `project_name` | `description` |
-| ------- |:------:|:-----------:|:--------------:|:-------------:|
+| -------:|:------:|:-----------:|:--------------:|:-------------:|
 | `agpl-3.0` | ✓ | ✓ | ✓ | ✓ |
 | `apache-2.0` | ✓ | ✓ | ✖ | ✖ |
 | `artistic-2.0` | ✓ | ✓ | ✖ | ✖ |
