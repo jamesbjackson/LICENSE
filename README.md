@@ -22,7 +22,7 @@ Most licenses require some parameters, which are enclosed in triple braces `{{{p
 `project_name`: Project's name (*i.e: LICENSE*)  
 `description`: Project's description (*i.e: A Collection of Useful LICENSE Templates*)
 
-| LICENSE | `year` | `full_name` | `project_name` | `description` |
+| Identifier | `year` | `full_name` | `project_name` | `description` |
 | -------:|:------:|:-----------:|:--------------:|:-------------:|
 | `agpl-3.0` | ✓ | ✓ | ✓ | ✓ |
 | `apache-2.0` | ✓ | ✓ | ✖ | ✖ |
@@ -40,9 +40,9 @@ Most licenses require some parameters, which are enclosed in triple braces `{{{p
 | `mpl-2.0` | ✖ | ✖ | ✖ | ✖ |
 | `unlicense` | ✖ | ✖ | ✖ | ✖ |
 
-## `LICENSE` Filenames
-| Filename | Human-readable |
-| --------:|:-------------- |
+## `LICENSE` Identifiers
+| Identifier | License name |
+| ----------:|:------------ |
 | `agpl-3.0` | GNU Affero General Public License v3.0|
 | `apache-2.0` | Apache License 2.0|
 | `artistic-2` | Artistic License 2.0|
