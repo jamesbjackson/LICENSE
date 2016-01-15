@@ -1,4 +1,4 @@
-# `LICENSE`
+# `LICENSE` (**API v1**)
 
 `LICENSE` is a collection of useful `LICENSE` templates inspired by [GitHub's `.gitignore`](https://github.com/github/gitignore). `LICENSE` also serves as a versioned API you can use to write software that generates licenses.
 
