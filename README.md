@@ -81,13 +81,14 @@ Most licenses require some parameters, which are enclosed in triple braces `{{{p
 If you catch an error in any of the templates, send in a pull request describing what the error is, why it is an error, and a source (if applicable).
 
 If you'd like to submit a new template, follow the steps below.
-1. Fork this repository.
-2. Create a new branch (*i.e:* `add-IDENTIFIER-license`), where `IDENTIFIER` is its common identifier and lowercase. If there is no common identifier, create one following the guidelines set by the existing identifiers listed above.
-3. Create a file with the contents of the license in the `licenses` directory with the format `IDENTIFIER.license`.
-4. Use the parameters listed above where necessary.
-5. Add the license to the two tables above (parameters and identifiers).
-6. Add the license's name and `IDENTIFIER` to `licenses.json`, `licenses.yaml`, and `licenses.txt`.
-7. Bump the `total` value in `licenses.json`, `licenses.yaml`, and `licenses.txt`.
+
+1. Fork this repository.  
+2. Create a new branch (*i.e:* `add-IDENTIFIER-license`), where `IDENTIFIER` is its common identifier and lowercase. If there is no common identifier, create one following the guidelines set by the existing identifiers listed above.  
+3. Create a file with the contents of the license in the `licenses` directory with the format `IDENTIFIER.license`.  
+4. Use the parameters listed above where necessary.  
+5. Add the license to the two tables above (parameters and identifiers).  
+6. Add the license's name and `IDENTIFIER` to `licenses.json`, `licenses.yaml`, and `licenses.txt`.  
+7. Bump the `total` value in `licenses.json`, `licenses.yaml`, and `licenses.txt`.  
 8. Send in a pull request. The more information you provide about the license, the better (especially if it is not a well-known license).
 
 If the license you wish to add requires a new parameter, first make an issue about it for discussion. Include why the parameters needs to be added (which license(s) would benefit from it). Adding a new parameter introduces a change in the API that applications may not be expecting or ready for.
