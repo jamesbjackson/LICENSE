@@ -1,11 +1,16 @@
 # `LICENSE`
 
-`LICENSE` is a collection of useful `LICENSE` templates inspired by [GitHub's `.gitignore`](https://github.com/github/gitignore).
+`LICENSE` is a collection of useful `LICENSE` templates inspired by [GitHub's `.gitignore`](https://github.com/github/gitignore). `LICENSE` also serves as a versioned API you can use to write software that generates licenses.
 
 `LICENSE` templates are stored in the `licenses` directory and end in `.license`. They contain some or none of the parameters listed below.
 
 ## Why?
-To make writing software that generates licenses easier. `LICENSE` serves as a stable public API for `LICENSE` templates that anyone can contribute to. If a license your application requires isn't here, send a pull request!
+To make writing software that generates licenses easier. `LICENSE` serves as a stable, public, and versioned API for `LICENSE` templates that anyone can contribute to. If a license your application requires isn't here, send a pull request!
+
+## API?
+As stated above, `LICENSE` also serves as an API. The current stable version of the API is `v1`. If any breaking changes are made to how the license metadata is stored (`licenses.json`, `licenses.yaml`, `licenses.txt`), the change will be reflected in the API version so as to not break any applications depending on that API version.
+
+Likewise, if any breaking changes are made to the license templates themselves (*i.e: new parameter*), a new API version will reflect that change. However, the addition of a new license is not considered a breaking change.
 
 ## Usage
 ### Getting License Template
