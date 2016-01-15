@@ -30,7 +30,7 @@ Likewise, if any breaking changes are made to the license templates themselves (
       - `total` holds the number of licenses
       - `IDENTIFIER` maps to the license name
 
-Alternatively, you can clone this repository to use `LICENSE` tempaltes offline.
+Alternatively, you can clone this repository to use `LICENSE` templates offline.
 
 ## Parameters
 Most licenses require some parameters, which are enclosed in triple braces `{{{parameter}}}` in the LICENSE templates. Below is a list of parameters and their meanings. ("Project" refers to the software being licensed).
