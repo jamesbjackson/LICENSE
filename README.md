@@ -14,14 +14,14 @@ Likewise, if any breaking changes are made to the license templates themselves (
 
 ## Usage
 ### Getting License Template
-1. Make a request to `https://raw.githubusercontent.com/qw3rtman/LICENSE/master/licenses/{license}.license` where `license` is a license identifier from the table below.
+1. Make a request to `https://raw.githubusercontent.com/qw3rtman/LICENSE/api/v1/licenses/{license}.license` where `license` is a license identifier from the table below.
 2. Replace all instances of the parameters below with its value (using `sed`, `awk`, etc.). Different licenses require different bits of information; some don't require any. (*ex: Replace* `{{{full_name}}}` *with* `Nimit Kalra`).
 
 ### Listing Licenses
   1. Make a request to
-    - `https://raw.githubusercontent.com/qw3rtman/LICENSE/master/licenses.json`
-    - `https://raw.githubusercontent.com/qw3rtman/LICENSE/master/licenses.txt`
-    - `https://raw.githubusercontent.com/qw3rtman/LICENSE/master/licenses.yaml`
+    - `https://raw.githubusercontent.com/qw3rtman/LICENSE/api/v1/licenses.json`
+    - `https://raw.githubusercontent.com/qw3rtman/LICENSE/api/v1/licenses.txt`
+    - `https://raw.githubusercontent.com/qw3rtman/LICENSE/api/v1/licenses.yaml`
   2. Get the metadata.
     - `licenses.json` and `licenses.yaml`
       - `total` holds the number of licenses
