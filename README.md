@@ -8,9 +8,22 @@
 To make writing software that generates licenses easier. `LICENSE` serves as a stable public API for `LICENSE` templates that anyone can contribute to. If a license your application requires isn't here, send a pull request!
 
 ## Usage
-1. Make a request to `https://raw.githubusercontent.com/qw3rtman/LICENSE/master/licenses/{license}.license` where `license` is a `LICENSE` from the table below.
+### Getting License Template
+1. Make a request to `https://raw.githubusercontent.com/qw3rtman/LICENSE/master/licenses/{license}.license` where `license` is a license identifier from the table below.
 2. Replace all instances of the parameters below with its value (using `sed`, `awk`, etc.). Different licenses require different bits of information; some don't require any. (*ex: Replace* `{{{full_name}}}` *with* `Nimit Kalra`).
-3. Done!
+
+### Listing Licenses
+  1. Make a request to
+    - `https://raw.githubusercontent.com/qw3rtman/LICENSE/master/licenses.json`
+    - `https://raw.githubusercontent.com/qw3rtman/LICENSE/master/licenses.txt`
+    - `https://raw.githubusercontent.com/qw3rtman/LICENSE/master/licenses.yaml`
+  2. Get the metadata.
+    - `licenses.json` and `licenses.yaml`
+      - `total` holds the number of licenses
+      - `licenses` holds a dictionary mapping the license identifier to its name.
+    - `licenses.txt` (` :: ` is the delimiter between key and value, newline is the delimiter between key-value pairs)
+      - `total` holds the number of licenses
+      - `IDENTIFIER` maps to the license name
 
 Alternatively, you can clone this repository to use `LICENSE` tempaltes offline.
 
@@ -69,6 +82,7 @@ If you'd like to submit a new template, follow the steps below.
 4. Use the parameters listed above where necessary.
 5. Add the license to the two tables above (parameters and identifiers).
 6. Add the license's name and `IDENTIFIER` to `licenses.json`, `licenses.yaml`, and `licenses.txt`.
+7. Bump the `total` value in `licenses.json`, `licenses.yaml`, and `licenses.txt`.
 7. Send in a pull request. The more information you provide about the license, the better (especially if it is not a well-known license).
 
 If the license you wish to add requires a new parameter, first make an issue about it for discussion. Include why the parameters needs to be added (which license(s) would benefit from it). Adding a new parameter introduces a change in the API that applications may not be expecting or ready for.
