@@ -88,6 +88,6 @@ If you'd like to submit a new template, follow the steps below.
 5. Add the license to the two tables above (parameters and identifiers).
 6. Add the license's name and `IDENTIFIER` to `licenses.json`, `licenses.yaml`, and `licenses.txt`.
 7. Bump the `total` value in `licenses.json`, `licenses.yaml`, and `licenses.txt`.
-7. Send in a pull request. The more information you provide about the license, the better (especially if it is not a well-known license).
+8. Send in a pull request. The more information you provide about the license, the better (especially if it is not a well-known license).
 
 If the license you wish to add requires a new parameter, first make an issue about it for discussion. Include why the parameters needs to be added (which license(s) would benefit from it). Adding a new parameter introduces a change in the API that applications may not be expecting or ready for.
