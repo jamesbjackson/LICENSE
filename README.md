@@ -78,9 +78,9 @@ Most licenses require some parameters, which are enclosed in triple braces `{{{p
 | `unlicense` | The Unlicense|
 
 ## Contributing
-If you catch an error in any of the templates, send in a pull request describing what the error is, why it is an error, and a source (if applicable).
+If you catch an **error in any of the existing templates** send in a pull request describing what the error is, why it is an error, and a source (if applicable).
 
-If you'd like to submit a new template, follow the steps below.
+If you'd like to submit a **new template**, follow the steps below.
 
 1. Fork this repository.  
 2. Create a new branch (*i.e:* `add-IDENTIFIER-license`), where `IDENTIFIER` is its common identifier and lowercase. If there is no common identifier, create one following the guidelines set by the existing identifiers listed above.  
@@ -91,4 +91,4 @@ If you'd like to submit a new template, follow the steps below.
 7. Bump the `total` value in `licenses.json`, `licenses.yaml`, and `licenses.txt`.  
 8. Send in a pull request. The more information you provide about the license, the better (especially if it is not a well-known license).
 
-If the license you wish to add requires a new parameter, first make an issue about it for discussion. Include why the parameters needs to be added (which license(s) would benefit from it). Adding a new parameter introduces a change in the API that applications may not be expecting or ready for.
+If the license you wish to add **requires a new parameter**, first make an issue about it for discussion. Include why the parameters needs to be added (which license(s) would benefit from it). Adding a new parameter introduces a change in the API that applications may not be expecting or ready for.
